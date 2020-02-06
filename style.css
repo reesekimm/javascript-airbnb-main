@@ -8,12 +8,13 @@ main {
   width: 100%;
 }
 
-section {
+div[aria-label="reservation"],
+div[aria-label="review"] {
   width: 1440px;
   margin: 0 auto;
 }
 
-.reservation {
+div[aria-label="reservation"] {
   padding: 60px 220px;
   height: 620px;
   background: url("https://i.postimg.cc/5tVszYP3/rectangle.jpg") no-repeat;
@@ -108,7 +109,7 @@ section {
   width: 100%;
 }
 
-.review {
+div[aria-label="review"] {
   padding: 40px 220px 60px 220px;
 }
 
